@@ -14,8 +14,8 @@ Detect roads in an aerial image and generate a Gaussian Mixture Model fitting th
 ## Example application
 
  1. Take an aerial image as input
- [![original image](images/reggio.png)]
+ <img src="images/reggio.png" width="400">
  2. Use a trained model to extract roads
- [![roads image](images/points.png)]
+ <img src="images/points.png" width="400">
  3. Fit a GMM to the detected roads. 
- [![gmm image](images/heatmap.png)]
+ <img src="images/heatmap'.png" width="400">

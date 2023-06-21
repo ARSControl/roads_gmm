@@ -6,7 +6,7 @@ from sklearn.mixture import GaussianMixture
 from matplotlib import pyplot as plt
 import tensorflow as tf
 
-from smooth_predictions_by_belnding_patches import predict_img_with_smooth_windowing
+from Patches.smooth_tiled_predictions import predict_img_with_smooth_windowing
 from patchify import patchify, unpatchify
 
 my_dpi = 96
@@ -178,8 +178,9 @@ def predict(image_path, model_path):
 if __name__ == '__main__':
 
     #image must be RGB
-    image_path = '/home/ubuntu/env.png'
-    model_path = '/home/ubuntu/RoadExtractionModel.h5'
+    pkg_name = os.path.dirname(__file__)
+    image_path = os.path.join(pkg_name, "images", 'reggio.png')
+    model_path = os.path.join(pkg_name, 'RoadExtractionModel.h5')
     image = predict(image_path, model_path)
     
     mns, cov, mix = gmm_model(image)

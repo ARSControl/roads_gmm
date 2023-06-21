@@ -10,6 +10,12 @@ Detect roads in an aerial image and generate a Gaussian Mixture Model fitting th
  - https://github.com/Vooban/Smoothly-Blend-Image-Patches
  - Dataset: https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset
 
+## Installation
+Clone the repository together with the submodule:
+```
+git clone --recurse-submodules https://github.com/ARSControl/roads_gmm
+```
+
 
 ## Example application
 

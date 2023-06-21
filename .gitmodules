@@ -1,3 +1,9 @@
 [submodule "Smoothly-Blend-Image-Patches"]
 	path = Smoothly-Blend-Image-Patches
 	url = https://github.com/Vooban/Smoothly-Blend-Image-Patches.git
+[submodule "Patches"]
+	path = Smoothly-Blend-Image-Patches
+	url = https://github.com/Vooban/Smoothly-Blend-Image-Patches.git
+[submodule "patches"]
+	path = Patches
+	url = https://github.com/Vooban/Smoothly-Blend-Image-Patches.git
